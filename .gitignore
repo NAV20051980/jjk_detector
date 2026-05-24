@@ -1,0 +1,25 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Collected data (large CSV)
+data/landmarks.csv
+
+# Trained model files
+model/*.pkl
+
+# MediaPipe downloaded model
+hand_landmarker.task
+
+# macOS
+.DS_Store
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# IDE
+.vscode/
+.idea/
